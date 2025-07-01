@@ -1,4 +1,4 @@
-"""Practicing from LS02 Notes, remember to use the terminal function."""
+"""Practicing from LS02 Notes, remember to use the terminal functio."""
 
 >>> int (0b01000001)
 65
@@ -23,8 +23,7 @@
 
 >>> print(chr(0b1000011) chr(0b1100001) chr(0b1100010))
 
->>> 110
-110
+>>> 110/
 
 >>> type(110)
 <class 'int'> 
