@@ -15,7 +15,7 @@ def main(secret: str) -> None:
             emojified(guess_word=guess, secret_word=secret)
         )  # so that the guess can be evaluated here
         if guess == secret:  # if you win
-            print("You won in " + str(turns) + " turns!")
+            print("You won in " + str(turns) + "/6 turns!")
             return None  # need this so the function exits if you win
         elif turns == 6:  # if you lose
             print("X/6 - Sorry, try again tomorrow!")
