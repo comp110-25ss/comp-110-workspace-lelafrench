@@ -32,6 +32,7 @@ def max(input: list[int]) -> int:
 
 
 def is_equal(list_1: list[int], list_2: list[int]) -> bool:
+    """Is every value at every index equal in both lists?"""
     count: int = 0
     if len(list_1) != len(list_2):  # if they're not the same len, they're not equal
         return False
@@ -47,6 +48,7 @@ def is_equal(list_1: list[int], list_2: list[int]) -> bool:
 
 
 def extend(list_a: list[int], list_b: list[int]) -> None:
+    """Add the values of one list to another list."""
     count: int = 0
     while count <= (
         len(list_b) - 1
