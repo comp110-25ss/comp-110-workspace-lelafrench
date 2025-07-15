@@ -6,6 +6,8 @@ __author__: str = "730530237"
 def all(big_list: list[int], same_int: int) -> bool:
     """Does the given int match every int in the list?"""
     count: int = 0
+    if big_list == []:
+        return False
     while count <= (len(big_list) - 1):
         if big_list[count] != same_int:
             return False
