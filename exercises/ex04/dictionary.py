@@ -73,7 +73,8 @@ def alphabetizer(inp: list[str]) -> dict[str, list[str]]:
 def update_attendance(log: dict[str, list[str]], day: str, student: str) -> None:
     """Update an existing attendance log with new days and students"""
     if day in log:
-        log[day] += [student]  # add that student to value list
+        if student not in log[day]:
+            log[day] += [student]  # add that student to value list
     else:
         log[day] = [
             student
