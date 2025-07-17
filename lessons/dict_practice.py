@@ -16,3 +16,8 @@ print("mango" in ice_cream)
 
 test: dict[str, str] = {"Hi": "does", "this": "work?"}
 print(test)
+
+
+quiz_review: dict[str, int] = {"Hello": 4, "COMP": 110, "Bye": 8}
+
+q2: dict[str, int] = {"Hi": quiz_review["Hello"]}
